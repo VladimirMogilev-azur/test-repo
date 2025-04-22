@@ -1,4 +1,5 @@
 {
+  "name": "test-repo",
   "version": "0.0.1",
   "description": "Lets seeeee",
   "main": "./dist/index.js",
