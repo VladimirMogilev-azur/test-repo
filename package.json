@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "description": "Lets seeeee",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pixi",
+    "test"
+  ],
+  "repository": "https://github.com/VladimirMogilev-azur/test-repo.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "pixi.js": "^6.5.1"
+  }
+}
