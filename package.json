@@ -1,5 +1,6 @@
 {
   "name": "test-repo",
+  "author": "VladimirMogilev-azur",
   "version": "0.0.1",
   "description": "Lets seeeee",
   "main": "./dist/index.js",
