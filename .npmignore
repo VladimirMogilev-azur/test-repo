@@ -2,4 +2,6 @@
 .qodo/
 .idea/
 /package-lock.json
-/dist/
+/tsconfig.json
+/webpack.config.cjs
+/src/
