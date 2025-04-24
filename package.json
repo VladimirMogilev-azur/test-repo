@@ -1,13 +1,14 @@
 {
   "name": "@vladimirmogilev-azur/test-repo",
   "author": "vladimirmogilev-azur",
-  "version": "0.1.1",
-  "description": "Lets seeeee",
+  "version": "0.1.4",
+  "description": "Lets seeee",
   "main": "dist/index",
   "types": "dist/index",
   "scripts": {
     "build": "webpack --mode=production",
-    "pub": "npm version patch && npm publish"
+    "pub": "npm version --commit-hooks false --git-tag-version false patch && npm publish",
+    "prepublish": "webpack --mode=production"
   },
   "keywords": [
     "pixi",
