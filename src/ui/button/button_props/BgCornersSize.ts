@@ -1,0 +1,1 @@
+export type BgCornersSize = number | [number, number, number, number]

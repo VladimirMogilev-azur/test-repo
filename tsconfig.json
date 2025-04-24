@@ -5,6 +5,8 @@
     "target": "ES6",
     "module": "es6",
     "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "declaration": true
   }
 }

@@ -1,12 +1,13 @@
 {
   "name": "@vladimirmogilev-azur/test-repo",
   "author": "vladimirmogilev-azur",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "description": "Lets seeeee",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index",
+  "types": "dist/index",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode=production",
+    "prepublishOnly": "webpack --mode=production",
     "publish": "npm publish"
   },
   "keywords": [
@@ -25,6 +26,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "pixi.js": "^6.5.1"
+    "pixi.js": "^6.5.1",
+    "gsap": "^3.12.5"
   }
 }
